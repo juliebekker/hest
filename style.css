@@ -1,17 +1,38 @@
-body {
-  background-color: purple;
+.bagde {
+  grid-area: b;
+  background-color: lightblue;
 }
-h1 {
-  color: yellow;
-  font-size: 300%;
-  font-style: italic;
-  font-weight: bold;
-  font-family: sans-serif;
-  text-decoration: underline;
+.title {
+  grid-area: t;
+  background-color: pink;
+}
+.beskrivelse {
+  grid-area: bsk;
+  background-color: lightpink;
+}
+.kode {
+  grid-area: k;
+  background-color: lightgreen;
+}
+.unlock {
+  grid-area: u;
+  background-color: lightyellow;
+}
 
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
+  grid-template-rows: 3fr 3fr 1fr 2fr 1fr 1fr 4fr;
+  grid-template-areas:
+    '. . . . .'
+    '. . b . .'
+    '. . t . .'
+    '. bsk bsk bsk .'
+    '. k k k .'
+    '. . u . .'
+    '. . . . .';
 }
 
-.ucl {
-  text-align: center;
-  margin: 5em auto 5em auto;
-}
+@media only screen and (max-width: 769px) {}
+Skriv til Andrea Lyng
