@@ -20,6 +20,11 @@ h1 {
 h2 {
   font-weight: bold;
 }
+.navtop {
+  top: 0;
+  width: 100%;
+  background-color: #7499A3;
+}
 
 .nav {
   position: fixed;
@@ -39,6 +44,7 @@ nav ul {
 
 nav ul li a img {
   width: 100px;
+  height: 100px;
   margin: 30px;
 }
 
@@ -68,7 +74,9 @@ nav ul li a img {
     border-radius: 25px;
 }
 
-
+#badge {
+  margin-bottom: 500px;
+}
 
 .badgeicon{
     margin: 10px;
@@ -111,4 +119,10 @@ nav ul li a img {
     display:flex;
     align-items: center;
     padding-left: 20px;
+}
+
+@media only screen and (max-width: 769px) {
+  #badge {
+    margin-bottom: 0px;
+  }
 }
