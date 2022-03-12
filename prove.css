@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #D3ECEB;
+  color: #003A44;
+  font-family: arial;
+}
+
+header {
+  background-color: #F1F8F8;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #7499A3;
+}
+
+nav ul {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
+}
+
+nav ul li a img {
+  width: 100px;
+  margin: 30px;
+}
+
+.gridcontainer{
+    /*display:grid;
+    height:100%;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "badge"
+    "badge"
+    "badge"
+    "badge"
+    "badge"
+    "badge"
+    "badge";*/
+    display:flex;
+    flex-direction: column;
+}
+
+.badge{
+    background:#F1F8F8;
+    padding: 20px;
+    margin: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 25px;
+}
+
+
+
+.badgeicon{
+    margin: 10px;
+}
+
+/*.badgetitle{
+    grid-area:btitle;
+    font-size: 38px;
+    margin: 10px;
+    padding-left: 20px;
+}*/
+
+.badgeicon > img {
+  width: 200px;
+}
+
+.badgedesc{
+    font: 26px arial;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.badgecontainer{
+    /*display:grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "bicon btitle"
+    "bicon bdesc";*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header{
+    font-size: 40px;
+    font-weight: bold;
+    height: 200px;
+    display:flex;
+    align-items: center;
+    padding-left: 20px;
+}
