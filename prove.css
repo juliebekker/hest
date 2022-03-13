@@ -1,3 +1,5 @@
+/*det basale*/
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +22,11 @@ h1 {
 h2 {
   font-weight: bold;
 }
+
+/*det basale*/
+
+/*navigation*/
+
 .navtop {
   top: 0;
   width: 100%;
@@ -47,6 +54,41 @@ nav ul li a img {
   height: 100px;
   margin: 30px;
 }
+
+/*navigation*/
+
+/*qr boks*/
+
+div#qr {
+  position: fixed;
+  background-color: pink;
+  padding: 10% 10% 0% 10%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  z-index: 10;
+}
+
+div#qrbillede {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+div#qrtekst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+
+}
+
+/*qr boks*/
+
+/*Kupon siden*/
 
 .gridcontainer{
     /*display:grid;
@@ -120,6 +162,8 @@ nav ul li a img {
     align-items: center;
     padding-left: 20px;
 }
+
+/*Kupon siden*/
 
 @media only screen and (max-width: 769px) {
   #badge {

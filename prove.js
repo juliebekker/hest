@@ -12,3 +12,11 @@ var nav = document.getElementById('nav');
     box.style.bottom = 100;
   }
   }
+
+
+
+document.getElementById("click1").onclick = function() {myFunction()};
+
+  function myFunction() {
+    
+  }
