@@ -20,9 +20,9 @@
 
     <main class="gridcontainer">
 
-      <div id="clicks">
 
-      <div class="badge" id="click1">
+
+      <div class="badge" data-modal-target="#modal">
         <div class="badgecontainer">
            <div class="badgeicon">
            <img src="images/couponicon.svg" alt="Kupon">
@@ -35,7 +35,7 @@
        </div>
 
 
-     <div class="badge" id="click2">
+     <div class="badge">
        <div class="badgecontainer">
           <div class="badgeicon">
           <img src="images/couponicon.svg" alt="Kupon">
@@ -47,7 +47,7 @@
         </div>
       </div>
 
-      <div class="badge" id="badge" id="click3">
+      <div class="badge" id="badge">
         <div class="badgecontainer">
            <div class="badgeicon">
            <img src="images/couponicon.svg" alt="Kupon">
@@ -58,9 +58,9 @@
            </div>
          </div>
        </div>
-       </div>
 
-       <div id="qr">
+
+       <div id="modal">
          <div id="qrbillede">
           <img src="images/Icon metro-qrcode.svg" alt="Qr-kode">
         </div>
@@ -71,7 +71,7 @@
 
     </main>
     <footer>
-      <nav class="nav" id="nav">
+      <nav class="nav" id="nav" id="badge">
         <ul>
           <li><a href="#"><img src="images/couponicon.svg" alt="Kupon"></a></li>
           <li><a href="#"><img src="images/friendsicon.svg" alt="Venner"></a></li>
@@ -80,6 +80,8 @@
         </ul>
       </nav>
     </footer>
+
+    <div id="overlay"></div>
 
 </body>
 </html>

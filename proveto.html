@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="dk" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="prove.css">
+    <script type="text/javascript" src="prove.js" defer></script>
+    <title>Kupon</title>
+  </head>
+
+  <body>
+    <nav class="navtop" id="navtop">
+      <ul>
+        <li><a href="#"><img src="images/backarrowicon.svg" alt="Tilbage"></a></li>
+        <li><a href="#"><img src="images/homeicon.svg" alt="Hjem"></a></li>
+      </ul>
+    </nav>
+
+    <header class="header"><h2>Kuponer</h2></header>
+
+  <main class="gridcontainer">
+
+
+    <button data-modal-target="#modal" class="badge">
+      <div class="badgecontainer">
+         <div class="badgeicon">
+         <img src="images/couponicon.svg" alt="Kupon">
+         </div>
+         <div class="badgedesc">
+          <h2>Gratis kaffe</h2>
+           <p>Kantinen giver en gratis kaffe! Tryk på denne kupon og få en QR de kan scanne i kantinen.</p>
+         </div>
+       </div>
+    </button>
+
+    <button data-modal-target="#modal" class="badge">
+      <div class="badgecontainer">
+         <div class="badgeicon">
+         <img src="images/couponicon.svg" alt="Kupon">
+         </div>
+         <div class="badgedesc">
+          <h2>Gratis kage</h2>
+           <p>Kantinen giver et gratis stykke kage! Tryk på denne kupon og få en QR de kan scanne i kantinen.</p>
+         </div>
+       </div>
+    </button>
+
+    <button data-modal-target="#modal" class="badge" id="badge">
+      <div class="badgecontainer">
+         <div class="badgeicon">
+         <img src="images/couponicon.svg" alt="Kupon">
+         </div>
+         <div class="badgedesc">
+          <h2>Gratis øl</h2>
+           <p>Fredagsbaren giver en gratis øl! Tryk på denne kupon og få en QR de kan scanne til fredagsbar.</p>
+         </div>
+       </div>
+    </button>
+
+
+    <div class="modal" id="modal">
+      <div id="modal-qrbillede">
+       <img src="images/Icon metro-qrcode.svg" alt="Qr-kode">
+     </div>
+      <div class="modal-qrtekst">
+        <div><h2>Scan QR-kode</h2></div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <nav class="nav" id="nav">
+      <ul>
+        <li><a href="#"><img src="images/couponicon.svg" alt="Kupon"></a></li>
+        <li><a href="#"><img src="images/friendsicon.svg" alt="Venner"></a></li>
+        <li><a href="#"><img src="images/profilicon.svg" alt="Profil"></a></li>
+        <li><a href="#"><img src="images/badgeicon.svg" alt="Badge"></a></li>
+      </ul>
+    </nav>
+  </footer>
+
+    <div id="overlay"></div>
+    
+  </body>
+
+
+</html>
