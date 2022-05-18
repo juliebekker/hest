@@ -22,3 +22,73 @@
   padding: 15px 25px 15px 25px;
   margin: 10px;
 }
+
+*/Farver{
+    color: #36244d;
+    color: #dcbcfd;
+    color: rgb 220,188,253;
+    color: #fcf4f0;
+    color: #e0f9f0;
+    color: #f2d7ca;
+    color: #cbebdb;
+}
+
+* {
+    background-color: #fcfaf0;
+    color: #36244d;
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+.container{
+    width: 60vw;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+/* alt ovenover er bare forslag til hvad vi skal kode */
+
+/*
+Knapper --> Julie
+Teksfelter --> Julie
+ikoner
+  -tilbage pile --> Andrea
+  -plus --> Amalie
+  -kryds --> Andrea
+  -filter --> Amalie
+  -indstillinger --> Andrea
+  -blyant --> Andrea
+  -profil --> Amalie
+  -kollega --> Amalie
+menu --> Emilie
+søgefelt --> Emilie
+margin iforhold til tekst og bokse
+Afrundinger på elementer osv..
+Font familie sat ind
+*/
