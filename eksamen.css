@@ -1,3 +1,4 @@
+/*
 .basisknap {
   background-color: #dcbcfd;
   border-radius: 10px;
@@ -5,6 +6,8 @@
   padding: 15px 25px 15px 25px;
   margin: 10px;
 }
+
+
 
 .pilleknap {
   background: linear-gradient(90deg, #dcbcfd 50%, #36244d 50%);
@@ -23,7 +26,8 @@
   margin: 10px;
 }
 
-*/Farver{
+*//*
+Farver{
     color: #36244d;
     color: #dcbcfd;
     color: rgb 220,188,253;
@@ -69,7 +73,7 @@ h2 {
     max-width: 100%;
   }
 }
-
+*/
 
 
 /* alt ovenover er bare forslag til hvad vi skal kode */
@@ -91,4 +95,131 @@ søgefelt --> Emilie
 margin iforhold til tekst og bokse
 Afrundinger på elementer osv..
 Font familie sat ind
+
+
+
 */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  background-color: #dcbcfd;
+  border-radius: 10px;
+  border: none;
+  padding: 15px 25px 15px 25px;
+  margin: 10px;
+  margin-left: 250px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0;
+  position: absolute;
+  top: 8px;
+  right: 105%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/*Emilies menu styles*/
+
+.profile-icon {
+  height: 3rem;
+}
+
+.group-icon {
+  height: 3rem;
+}
+
+.menu {
+  width: 70px;
+  height: 76px;
+  margin-top: 40vh;
+  float: right;
+}
+
+.menubox1 {
+  position: relative;
+  display: inline-block;
+
+  padding: 20px;
+  padding-bottom: 6px;
+  padding-top: 22px;
+
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.menubox1 .tooltiptext1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0;
+  position: absolute;
+  top: 25px;
+  right: 115%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.menubox1:hover .tooltiptext1{
+  visibility: visible;
+  opacity: 1;
+}
+
+.menubox2 {
+  position: relative;
+  display: inline-block;
+
+  padding: 20px;
+  padding-bottom: 6px;
+  padding-top: 22px;
+
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.menubox2 .tooltiptext2 {
+  visibility: hidden;
+  width: 120px;
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0;
+  position: absolute;
+  top: 25px;
+  right: 115%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.menubox2:hover .tooltiptext2{
+  visibility: visible;
+  opacity: 1;
+}
+
+.menubox1:hover {
+  background-color: #4E3B66;
+  cursor: pointer;
+}
+
+.menubox2:hover {
+  background-color: #4E3B66;
+  cursor: pointer;
+}
