@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="dk" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kk.css">
+    <script src="kk.js" defer></script>
+
+    <title>Anmod om at oprette abonnement</title>
+  </head>
+  <body>
+
+      <main class="main">
+
+        <div class="toppen">
+
+
+            <img class="abonnementbillede" src="img/abonnementbillede.png" alt="Abonnementbillede">
+
+          <div class="blyant">
+            <img src="img/blyant.png" alt="blyant">
+          </div>
+
+        </div>
+
+          <input id="navn" value="Angiv navn..." onfocus="myOnfocus1()" onblur="myOnblur1()">
+
+          <input class="tekstfelt" id="beskrivelse" value="Beskrivelse..." onfocus="myOnfocus2()" onblur="myOnblur2()">
+
+          <div class="hashtag">
+            <div id="hashtagknapper"></div>
+            <div class="plus-icon" onmouseover="changeColor(this, colors[0])" onmouseout="changeColor(this, colors[1])">
+                <img alt="Plus ikon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAN9JREFUSEvtljESwiAQRfcnB9BDxD6Njp2xdfQuyUn0Ljq2audoY28OoQcg64AWFmAMGtAZaBf2w2P/AsjTgCddCsLOyP8X6n5vkhLHc4UHojie16emqKxOPEymWUXYSLGIeLwvV9sgXEcgoK4jpOKtFtfDMh3dTiIgZeaFchOQV8x6O0FcTVYz3vEgmUmLjN5CYJ60O5TLTBf+PWGJOuaoq9stE1ImUp0LRAVIj1qgujRG/Qpxq8UVhJ8JBNTOnkVpNXCsOhdD5M4+Ah92s/vH5RtJbHIEYRtqVmu8ob4BT3mJHwevqi8AAAAASUVORK5CYII="/>
+            </div>
+          </div>
+
+          <button class="pilleknap"><p class="right">Egen</p><p class="left">Fælles</p></button>
+          <input class="tekstfelt" id="email" value="E-mail..." onfocus="myOnfocus3()" onblur="myOnblur3()">
+          <input class="tekstfelt" id="password" value="Password..." onfocus="myOnfocus4()" onblur="myOnblur4()">
+          <button class="pilleknaptredelt"><p class="right">Måned</p><p class="middle">Kvartal</p><p class="left">År</p></button>
+          <input class="tekstfelt" id="pris" value="Pris..." onfocus="myOnfocus5()" onblur="myOnblur5()">
+          <button class="basisknap" onmouseover="changeColor(this, colors[0])" onmouseout="changeColor(this, colors[1])">Tilknyt kort</button>
+          <button class="basisknap" onmouseover="changeColor(this, colors[0])" onmouseout="changeColor(this, colors[1])" onclick="myFunction()">Anmod</button>
+          <div class="space"></div>
+      </main>
+      
+      <footer class="footer">
+      </footer>
+  </body>
+</html>

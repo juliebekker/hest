@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+
+body {
+    background-color: #fcfaf0;
+    color: #36244d;
+    font-family: "Work Sans";
+    font-size: 0.75rem;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* font */
+p {
+  line-height: 1.2rem;
+  font: 400 0.9rem "Work Sans", sans-serif;
+}
+
+h1 {
+  font: 600 2.5rem "Work Sans", sans-serif;
+}
+
+h2 {
+  font: 600 1.25rem "Work Sans", sans-serif;
+}
+
+h3 {
+  font: 650 2rem "Work Sans", sans-serif;
+}
+
+/* ikoner */
+.basisknap {
+  background-color: #dcbcfd;
+  border-radius: 0.625rem;
+  border: none;
+  padding: 0.938rem 1.563rem 0.938rem 1.563rem;
+  margin: 1.25rem;
+  font: 400 0.9rem "Work Sans", sans-serif;
+  font-weight: normal;
+}
+
+.pilleknap {
+  background: linear-gradient(90deg, #dcbcfd 50%, #36244d 50%);
+  border-radius: 0.625rem;
+  border: none;
+  padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+  margin:0.625rem;
+}
+
+.pilleknaptredelt {
+  background: linear-gradient(to right, #dcbcfd, #dcbcfd 33.33%, #36244d 33.33%, #36244d 66.66%, #dcbcfd 66.66%);
+  border-radius: 0.625rem;
+  border: none;
+  padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+  margin: 0.625rem;
+}
+
+.tekstfelt {
+  background-color: #cbebdb;
+  width: 40.625rem;
+  border-radius: 0.625rem;
+  border: none;
+  padding: 0.938rem 1.563rem 0.938rem 1.563rem;
+  margin: 1.25rem;
+  font: 400 0.9rem "Work Sans", sans-serif;
+  font-weight: normal;
+}
+
+.indstillinger-ikon > img {
+  height: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.indstillinger-ikon {
+  margin-left: auto;
+}
+
+.tilbagepil {
+  display: flex;
+  justify-content: end;
+  height: 3.5rem;
+}
+
+.profile-icon {
+  height: 3rem;
+}
+
+.group-icon {
+  height: 3rem;
+}
+
+.filter-icon {
+  height: 3rem;
+}
+
+.plus-icon {
+  height: 2rem;
+  background-color: #DCBCFD;
+  width: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.abonnementbillede {
+  margin-top: 1.25rem;
+  height: 75%;
+}
+
+.blyant {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toppen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.space {
+  height: 3.125rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#navn {
+  background: transparent;
+  border: none;
+  font: 600 1.25rem "Work Sans";
+  font-weight: normal;
+  text-align: center;
+  margin: 1.25rem;
+}
+
+.hashtag {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 1.25rem 0;
+}
+
+#hashtagknapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#hashtagknapper > div {
+  background-color: #dcbcfd;
+  border-radius: 0.625rem;
+  border: none;
+  padding: 0.313rem 0.938rem 0.313rem 0.938rem;
+  margin: 0.625rem;
+}
+
+.plus-icon {
+  margin-left: 0.625rem;
+}
+
+.pilleknap {
+  display: flex;
+  flex-direction: row;
+  margin: 1.25rem;
+}
+
+.pilleknaptredelt {
+  display: flex;
+  flex-direction: row;
+  margin: 1.25rem;
+}
+
+.right {
+  margin-right: 0.625rem;
+}
+
+.left {
+  margin-left: 1.25rem;
+}
+
+.middle {
+  margin-left: 0.625rem;
+  margin-right: 1.875rem;
+}
+
+@media screen and (max-width: 800px) {
+  .tekstfelt {
+    width: 30rem;
+
+  }
+
+  body {
+    background-color: pink;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+
+  .tekstfelt {
+    width: 20rem;
+
+  }
+
+  body {
+    background-color: green;
+  }
+
+
+}
